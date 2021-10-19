@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar | FunCoding Cademy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <h2>FunCademy</h2>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">Beranda</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="daftar.html">Daftar Sekarang</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="heading-menu">
+      <h2><span>Hasil Form Pendaftaran</span></h2>
+    </div>
+
+    <script>
+      var NIK = prompt("Masukan NIK", "");
+      var name = prompt("Masukan Nama Lengkap", "");
+      var jk = prompt("Masukan Jenis Kelamin", "");
+      var noHp = prompt("Masukan Nomor HP", "");
+      var alamat = prompt("Masukan Alamat", "");
+      var bahasa = prompt("Masukan Bahasa Pemrograman", "");
+
+      if (confirm("Apakah Anda sudah yakin untuk menyimpan") == true) {
+        document.write("<div style='height:200px;'>");
+        document.write(
+          "<p style='text-align:center; text-justify:inter-word; color:#000'>"
+        );
+        document.write("NIK     = ", NIK, "<br>");
+        document.write("Nama Lengkap = ", name, "<br>");
+        document.write("Jenis Kelamin = ", jk, "<br>");
+        document.write("Nomor HP  = ", noHp, "<br>");
+        document.write("Alamat    = ", alamat, "<br>");
+        document.write("Bahasa Pemrograman Yang Diminati  = ", bahasa, "<br>");
+        document.write("</p>");
+        document.write("</div>");
+      } else {
+      }
+    </script>
+
+    <div class="footer">
+      <p>&copy 2021 FunCademy | Powered by M Abdul Azis MM</p>
+    </div>
+  </body>
+</html>

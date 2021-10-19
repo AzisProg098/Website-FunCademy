@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.logo h2 {
+  color: #4e9f3d;
+  background-color: #fff;
+  padding: 5px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p {
+  color: #555;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.header {
+  background: #4e9f3d;
+}
+
+/*Style Heading Menu*/
+.heading-menu {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: rgb(56, 56, 56);
+}
+.heading-menu span {
+  color: #4e9f3d;
+}
+
+/*Style Gallery*/
+
+.wrapper-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-left-col1,
+.container-center-col1,
+.container-left-col2,
+.container-center-col2 {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px #b0bec5;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  width: 320px;
+  margin-bottom: 40px;
+  margin-right: 35px;
+}
+.container-right-col1,
+.container-right-col2 {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px #b0bec5;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  width: 320px;
+  margin-bottom: 40px;
+  margin-left: 5px;
+}
+/*Gambar pada Card View*/
+.banner-left-col1,
+.banner-center-col1,
+.banner-right-col1,
+.banner-left-col2,
+.banner-center-col2,
+.banner-right-col2 {
+  position: relative;
+  height: 267px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+}
+.banner-left-col1:hover,
+.banner-center-col1:hover,
+.banner-right-col1:hover,
+.banner-left-col2:hover,
+.banner-center-col2:hover,
+.banner-right-col2:hover {
+  opacity: 0.7;
+}
+.banner-left-col1 {
+  background-image: url(img/3d\ design.jpg);
+}
+.banner-center-col1 {
+  background-image: url(img/canva.jpg);
+}
+.banner-right-col1 {
+  background-image: url(img/android.jpg);
+}
+.banner-left-col2 {
+  background-image: url(img/java.jpg);
+}
+.banner-center-col2 {
+  background-image: url(img/wordpress.jpg);
+}
+.banner-right-col2 {
+  background-image: url(img/full\ stack.jpg);
+}
+
+.name {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.description {
+  margin: 1rem 2rem;
+  font-size: 0.9rem;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 16px;
+  background-color: #4e9f3d;
+}
+
+.btn:hover {
+  border: #4e9f3d 3px solid;
+  cursor: pointer;
+  color: #4e9f3d;
+  background-color: #fff;
+}
+
+/*Footer*/
+.footer {
+  margin-top: 20px;
+  background-color: #4e9f3d;
+  height: 40px;
+}
+.footer p {
+  padding-top: 5px;
+  text-align: center;
+  color: #fff;
+}
