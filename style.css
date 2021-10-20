@@ -54,7 +54,8 @@ p {
   text-align: center;
   color: rgb(56, 56, 56);
 }
-.heading-menu span {
+.heading-menu h2 span {
+  margin-bottom: 20px;
   color: #4e9f3d;
 }
 
@@ -164,7 +165,6 @@ p {
 
 /*Footer*/
 .footer {
-  margin-top: 20px;
   background-color: #4e9f3d;
   height: 40px;
 }

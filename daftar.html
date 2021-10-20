@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daftar | FunCoding Cademy</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-daftar.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -31,22 +32,22 @@
     </div>
 
     <div class="heading-menu">
-      <h2><span>Hasil Form Pendaftaran</span></h2>
+      <h2><span>Form Pendaftaran</span></h2>
     </div>
 
-    <form>
-      <label for="fname">Username : </label><br />
-      <input type="text" id="fname" name="fname"/><br />
-      <label for="lname">Password : </label><br />
-      <input type="password" id="lname" name="lname"/><br /><br />
-      <input type="radio" id="html" name="fav_language"/>
-      <label for="html">HTML</label><br />
-      <input type="radio" id="css" name="fav_language"/>
-      <label for="css">CSS</label><br />
-      <input type="radio" id="javascript" name="fav_language"/>
-      <label for="javascript">JavaScript</label><br>
-      <input type="submit" value="Submit" />
-    </form>
+    <div class="container-register">
+      <form>
+        <label>Email</label>
+        <input type="email">
+        <label>Username</label><br>
+        <input type="text"><br>
+        <label>Password</label><br>
+        <input type="password"><br>
+        <label>Confirm Password</label>
+        <input type="password"><br>
+        <button>Daftar</button>
+      </form>
+    </div>
 
     <div class="footer">
       <p>&copy 2021 FunCademy | Powered by M Abdul Azis MM</p>
